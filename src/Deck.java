@@ -80,7 +80,7 @@ public class Deck {
             return null;
         }
         Card x = cards.get(cards.size()-1);
-        cards.remove(cards.size()-1);
+        cards.add(x);
         return x;
     }
 
