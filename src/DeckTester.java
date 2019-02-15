@@ -15,10 +15,17 @@ public class DeckTester {
 
         Deck one = new Deck(ranks,suits,values);
         one.deal();
+        one.deal();
         Deck three = new Deck(ranks,suits,values);
+        three.deal();
         Deck two = new Deck(ranks,suits,values);
+        two.deal();
+        two.deal();
+        two.deal();
 
         System.out.println(one);
+        System.out.println(two);
+        System.out.println(three);
     }
 }
 
